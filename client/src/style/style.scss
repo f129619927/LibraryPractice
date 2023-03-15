@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.root {
+  background: rgb(245, 241, 241);
+}
+@import "./resgister";
+@import "./footer";
+@import "./login";

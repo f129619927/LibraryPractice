@@ -1,0 +1,28 @@
+.register {
+  background: rgb(245, 241, 241);
+  padding: 5vh 0 45vh 0;
+  form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+    div {
+      display: flex;
+      flex-direction: row;
+      label,
+      input {
+        padding: 1vh;
+      }
+    }
+    .con {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      button {
+        padding: 1vh 5vh;
+      }
+    }
+  }
+}

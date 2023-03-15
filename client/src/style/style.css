@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.root {
+  background: rgb(245, 241, 241);
+}
+
+.register {
+  background: rgb(245, 241, 241);
+  padding: 5vh 0 45vh 0;
+}
+.register form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0;
+}
+.register form div {
+  display: flex;
+  flex-direction: row;
+}
+.register form div label,
+.register form div input {
+  padding: 1vh;
+}
+.register form .con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register form .con button {
+  padding: 1vh 5vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  min-height: 10vh;
+}
+
+.login {
+  background: rgb(245, 241, 241);
+  padding: 5vh 0 55vh 0;
+}
+.login form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0;
+}
+.login form div {
+  display: flex;
+  flex-direction: row;
+}
+.login form div label,
+.login form div input {
+  padding: 1vh;
+}
+.login form .con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login form .con button {
+  padding: 1vh 5vh;
+}/*# sourceMappingURL=style.css.map */
