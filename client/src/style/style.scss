@@ -6,6 +6,10 @@
 .root {
   background: rgb(245, 241, 241);
 }
+.message {
+  margin-bottom: 2rem;
+}
 @import "./resgister";
 @import "./footer";
 @import "./login";
+@import "bootstrap-icons/font/bootstrap-icons.css";

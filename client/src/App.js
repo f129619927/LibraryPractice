@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
-import Homecomponent from "./components/home-component";
-import Logincomponent from "./components/login-component";
-import Registercomponent from "./components/register-component";
+import Homecomponent from "./pages/home-component";
+import Logincomponent from "./pages/login-component";
+import Registercomponent from "./pages/register-component";
 function App() {
   return (
     <div className="App">

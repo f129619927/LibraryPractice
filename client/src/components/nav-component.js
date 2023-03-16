@@ -6,7 +6,7 @@ const Navcomponent = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
-          <Link className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             Library
           </Link>
           <button

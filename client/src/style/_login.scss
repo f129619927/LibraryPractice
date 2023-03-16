@@ -21,7 +21,21 @@
       flex-direction: column;
       align-items: center;
       button {
+        padding: 1vh 9.5vh;
+        i {
+          padding-right: 1rem;
+        }
+      }
+    }
+    .google {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .googleLink {
         padding: 1vh 5vh;
+        i {
+          padding-right: 1rem;
+        }
       }
     }
   }

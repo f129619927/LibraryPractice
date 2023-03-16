@@ -1,3 +1,4 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
 * {
   padding: 0;
   margin: 0;
@@ -6,6 +7,10 @@
 
 .root {
   background: rgb(245, 241, 241);
+}
+
+.message {
+  margin-bottom: 2rem;
 }
 
 .register {
@@ -71,5 +76,19 @@
   align-items: center;
 }
 .login form .con button {
+  padding: 1vh 9.5vh;
+}
+.login form .con button i {
+  padding-right: 1rem;
+}
+.login form .google {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login form .google .googleLink {
   padding: 1vh 5vh;
+}
+.login form .google .googleLink i {
+  padding-right: 1rem;
 }/*# sourceMappingURL=style.css.map */

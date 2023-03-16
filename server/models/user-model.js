@@ -18,6 +18,15 @@ userSchema.methods.isUser = function () {
 userSchema.methods.isAdmin = function () {
   return this.role == "Admin";
 };
+userSchema.methods.comparePassword = async function (password, cb) {
+  let result;
+  try {
+    result = await bcrypt.compare(password, this.password);
+    return cb(null, result);
+  } catch (e) {
+    return cb(e, result);
+  }
+};
 userSchema.pre("save", async function (next) {
   if ((this.password && this.isNew) || this.isModified("password")) {
     const result = await bcrypt.hash(this.password, 12);
